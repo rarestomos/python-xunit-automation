@@ -207,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1997" />
     <option name="y" value="73" />
     <option name="width" value="1731" />
@@ -226,37 +226,6 @@
             <path>
               <item name="python-xunit-automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-xunit-automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-xunit-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-xunit-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-xunit-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-xunit-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-xunit-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-xunit-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-xunit-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-xunit-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-xunit-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-xunit-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-xunit-automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-xunit-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="books" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,7 +342,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info id="Project Explorer" />
       <window_info id="DB Browser" />
