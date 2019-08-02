@@ -1,9 +1,10 @@
 import json
-
 import requests
 
 from actions import logger
-from configuration.configuration import books_url
+from configuration.configuration import backend_url
+
+books_url = f'{backend_url}/books'
 
 
 # POST

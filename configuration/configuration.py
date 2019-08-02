@@ -1,22 +1,10 @@
 import importlib
-import json
-import logging.config
 import os
 
+from configuration import __init_logging
+
 env = os.environ.get("env", "dev")
-
 supported_envs = ["dev", "test"]
-
-
-def __init_logging():
-    path = 'logging.json'
-    if os.path.exists(path):
-        with open(path, 'rt') as file:
-            logging.config.dictConfig(json.loads(file.read()))
-    else:
-        logging.basicConfig(level=logging.INFO,
-                            format="%(asctime)s - %(module)s::%(funcName)s - [%(levelname)s] - %(message)s")
-
 
 __init_logging()
 
@@ -37,7 +25,3 @@ configuration = getattr(module, class_attr)()
 configuration.read_configuration()
 
 backend_url = configuration.backend_url
-
-books_url = configuration.books_url
-users_url = configuration.users_url
-reservations_url = configuration.reservations_url
